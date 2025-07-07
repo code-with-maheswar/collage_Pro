@@ -1,0 +1,333 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    opacity: 200px;
+
+}
+.container{
+    height: 50px;
+    max-width: 100vw;
+    /* width: 100vw !important; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: #FFFDF6;
+    
+    border-radius: 1rem;    
+}
+
+
+.search{
+    /* flex-basis: 50%; */
+    flex-grow: 1;
+    padding-top: 0.3rem;
+    margin-left: 7rem;  
+}
+
+.item{
+   
+    align-items: baseline;
+}
+div i{
+    font-size: 1.67rem;
+    margin-top: 0.2rem;;
+}
+
+div .navi{
+ display: flex;
+ justify-content: space-around;
+}
+#title{
+    padding-left: 0px;
+}
+#title::first-letter{
+    color: rgb(231, 17, 49);
+}
+
+input[type = "search"]{
+    width: 30rem;
+    height: 1.90rem;
+    border-radius: 2rem;
+    color: #9ea9d3;
+    border: 2px solid lightblue;
+}
+.btn{
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 0.3rem;
+   
+}
+button{
+    width: 9rem;
+     height: 1.90rem;
+    border-radius: 2rem;
+    border: 2px solid lightblue;
+    
+}
+
+
+
+.navber{
+    display: flex;
+    position: absolute;
+    top: 5rem;
+}
+.navber a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    
+}
+.navber i{
+    font-size: 1.32rem;
+    opacity: 0.17;
+    
+}
+i:hover{
+    opacity: 1;
+    font-size: 1.40rem;
+    transition: 1s;
+}
+/* /* 
+.navber{
+    margin-top: 5rem;
+}
+.navber i{
+    font-size: 1rem;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 0.8em;
+} */
+
+
+.form-switch{
+    border: 2px solid lightblue;
+    height: 1.8rem;
+    width: 16rem;
+    padding-left: 3.2rem;
+    border-radius: 2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 1.7rem;
+} 
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(207, 17, 17);
+    position: absolute;
+    top: 200px;
+    left: 14rem;
+    border-radius: 50%;
+  border-left-color: green;
+  border-right-color: rgb(220, 223, 58);
+  border-top-color: rgb(204, 197, 195);
+}
+
+.card_itm{
+    display: flex;
+    font-display: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10rem;
+    
+}
+
+.card{
+    height: 17rem;
+    width: 14rem;
+    border: 2px solid rgb(223, 214, 214);
+    border-radius: 1rem;
+    opacity: 0.80;
+    margin: 2rem;
+}
+.card:hover{
+box-shadow: 4px 3px 34px gold;
+transform: skew(0deg);
+transition: 2s;
+}
+.card:hover{
+    opacity: 1;
+} 
+.img{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://cdn.loveandlemons.com/wp-content/uploads/2023/06/homemade-ice-cream.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img1{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://www.recipegirl.com/wp-content/uploads/2011/06/Peanut-Butter-Cup-Ice-Cream-5-1.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img2{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://images.unsplash.com/photo-1568484667026-5b8fa185ae6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img3{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://www.benjerry.com/files/live/sites/systemsite/files/US%20and%20Global%20Assets/Flavors/Product%20Assets/US/Peanut%20Butter%20Cup%20Ice%20Cream/peanut-butter-cup-2022-detail.png.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img4{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://images.unsplash.com/photo-1628585352636-f4a24c2e17d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGljZWNyZWFtfGVufDB8fDB8fHww");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img5{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://images.unsplash.com/photo-1586769412527-ab0855979b2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGljZWNyZWFtfGVufDB8fDB8fHww");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img6{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://images.unsplash.com/photo-1613489716914-92acdfe372fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGljZWNyZWFtfGVufDB8fDB8fHww");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img7{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://media.istockphoto.com/id/2210975875/photo/vanilla-scoop-ice-cream-in-a-bowl-with-colorful-sprinkles.webp?a=1&b=1&s=612x612&w=0&k=20&c=HDxm2ApnLGdcX3H3cErOA7a9hPccoKrkRMpXr8S_3CI=");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img8{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://media.istockphoto.com/id/1013047550/photo/ice-cream-cone-with-assortment-of-fruits-and-ice-cream-flavours-viewed-from-above-homemade.webp?a=1&b=1&s=612x612&w=0&k=20&c=5NXhkCoo_-pvUIGX2_S9QSfTiqEWGz_8EiZ930q-SjY=");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img9{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://media.istockphoto.com/id/106361524/photo/ice-cream.jpg?s=612x612&w=0&k=20&c=YwUcg77_lv0TVMpsgnLmY27mO97Gl74TaWtBJOJbC9Y=");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img10{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://media.istockphoto.com/id/135170535/photo/icecream-three-balls.jpg?s=612x612&w=0&k=20&c=DkepUx2ae38GEFKle6Wu5MmsdKbaF3SLqnMcZcLRaQs=");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+.img11{
+    height: 9rem;
+    width: 13.90rem;
+    border-bottom: 2px solid black;
+    background-image: url("https://media.istockphoto.com/id/483188453/photo/bowl-of-ice-cream.jpg?s=612x612&w=0&k=20&c=IdAF50Nx6zF-4nXxEJd3RDWDZ8LkYRhj3wmaBOXl9WM=");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    margin-right: 1.89rem;
+    
+}
+
+
+.card a{
+    text-decoration: none;
+    color: black;
+    margin-top: 0.25rem;
+}
+
+.btn2{
+    border: 2px solid rgb(167, 164, 164);
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: rem;
+    border-radius: 2rem;
+}
+.pp{
+    margin-top: 1rem;
+    margin-right: 5rem;
+}
+.btn3{
+  border: 2px solid lightblue;
+  border-radius: 1rem;
+  font-size: 0.90rem;
+  padding: 0.39rem 2rem;
+  text-decoration: none;
+  color: black;
+  
+}
